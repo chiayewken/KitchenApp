@@ -10,15 +10,13 @@ import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
-    Button buttonToMain;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        buttonToMain = findViewById(R.id.buttonToMain);
-        buttonToMain.setOnClickListener(new View.OnClickListener() {
+        Button buttonLogin = findViewById(R.id.buttonLogin);
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 EditText editUsername = findViewById(R.id.editUsername);
@@ -28,13 +26,20 @@ public class LoginActivity extends AppCompatActivity {
                 String trueUsername = getString(R.string.username);
                 String truePassword = getString(R.string.password);
                 boolean loginSuccess = testUsername.equals(trueUsername) && testPassword.equals(truePassword);
-                Toast.makeText(LoginActivity.this, "Login " + loginSuccess, Toast.LENGTH_SHORT).show();
+                Toast.makeText(LoginActivity.this, "Login success " + loginSuccess, Toast.LENGTH_SHORT).show();
                 if (loginSuccess) {
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
                 }
             }
         });
+        buttonLogin.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
+                return false;
+            }
+        });
     }
-
 }

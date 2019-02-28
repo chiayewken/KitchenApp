@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "344670496267",
-    "firebase_url": "https://lesson-5-12ef0.firebaseio.com",
-    "project_id": "lesson-5-12ef0",
-    "storage_bucket": "lesson-5-12ef0.appspot.com"
+    "project_number": "472555424072",
+    "firebase_url": "https://orderfood-b7bbb.firebaseio.com",
+    "project_id": "orderfood-b7bbb",
+    "storage_bucket": "orderfood-b7bbb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:344670496267:android:b0b58a1a2f16dbad",
+        "mobilesdk_app_id": "1:472555424072:android:b0b58a1a2f16dbad",
         "android_client_info": {
           "package_name": "com.example.KitchenApp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "344670496267-rabvutsi6sn4fhtegvaca2d9nrnnq262.apps.googleusercontent.com",
+          "client_id": "472555424072-kmadbcud13bcu52dh8k9iltf6i5vjdig.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.KitchenApp",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "344670496267-95b7tvrbqdb56sv3i162o0v7b9pnkopp.apps.googleusercontent.com",
+          "client_id": "472555424072-srl6s5eli6h1lp8882fgg349d0gqul55.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAjtrj9Vo0TA2WgtyD-A9RP0u8oF6UClIo"
+          "current_key": "AIzaSyC-ulTrmS9brAOVZWNWc8bdpJfNwhEahGE"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "344670496267-95b7tvrbqdb56sv3i162o0v7b9pnkopp.apps.googleusercontent.com",
+              "client_id": "472555424072-srl6s5eli6h1lp8882fgg349d0gqul55.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -52,28 +52,28 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:344670496267:android:741283e0f25dd055",
+        "mobilesdk_app_id": "1:472555424072:android:85187a9abc38406f",
         "android_client_info": {
-          "package_name": "com.example.lesson_5_solution_chiayewken"
+          "package_name": "com.omralcorut.orderfood"
         }
       },
       "oauth_client": [
         {
-          "client_id": "344670496267-4ktndruc7ma2453vrfmrh4p8r5oeb3tb.apps.googleusercontent.com",
+          "client_id": "472555424072-ehlpagb0r1j7bitvpnnov7gpkl475hls.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.lesson_5_solution_chiayewken",
-            "certificate_hash": "32bf00ce5efcb64cccb79acea403f8323241406d"
+            "package_name": "com.omralcorut.orderfood",
+            "certificate_hash": "14045b58e54e107a3835019fd69bd2ee737a7be8"
           }
         },
         {
-          "client_id": "344670496267-95b7tvrbqdb56sv3i162o0v7b9pnkopp.apps.googleusercontent.com",
+          "client_id": "472555424072-srl6s5eli6h1lp8882fgg349d0gqul55.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAjtrj9Vo0TA2WgtyD-A9RP0u8oF6UClIo"
+          "current_key": "AIzaSyC-ulTrmS9brAOVZWNWc8bdpJfNwhEahGE"
         }
       ],
       "services": {
@@ -84,7 +84,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "344670496267-95b7tvrbqdb56sv3i162o0v7b9pnkopp.apps.googleusercontent.com",
+              "client_id": "472555424072-srl6s5eli6h1lp8882fgg349d0gqul55.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
